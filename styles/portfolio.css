@@ -56,10 +56,15 @@ body {
 
 .projects-button,
 .contact-button {
-  margin: 30px;
-  padding: 10px 30px 10px 30px;
   border-radius: 14px;
   border: 1px solid var(--primary-color);
+  margin: 30px;
+}
+
+.projects-button,
+.contact-button,
+.contact-button-footer {
+  padding: 10px 30px 10px 30px;
   font-weight: 600;
 }
 
@@ -104,4 +109,30 @@ p.project-description {
   background-color: var(--secondary-color);
   color: var(--primary-color);
   font-weight: 400;
+}
+
+.work-inquiry {
+  background-color: var(--secondary-color);
+  padding: 20px 20px 20px 40px;
+  margin: 0 150px;
+  border-radius: 4px;
+}
+
+.contact-button-footer {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin: 20px;
+  border: none;
+  border-radius: 3px;
+  width: 250px;
+}
+
+.contact-details-footer {
+  margin: 60px;
+  text-align: center;
+}
+
+a:link {
+  font-weight: 400;
+  color: black;
 }
