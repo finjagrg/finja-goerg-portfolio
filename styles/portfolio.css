@@ -2,6 +2,8 @@
   --heading-font: "Syne", sans-serif;
   font-style: normal;
   font-weight: 800;
+  --primary-color: rgba(171, 37, 69, 1);
+  --secondary-color: rgba(240, 240, 240, 1);
 }
 
 body {
@@ -19,7 +21,7 @@ body {
 }
 
 .navbar-nav .navbar-home {
-  color: rgba(171, 37, 69, 1) !important;
+  color: var(--primary-color) !important;
 }
 
 .navbar-name {
@@ -27,7 +29,7 @@ body {
 }
 
 .heading-section {
-  background-color: #f0f0f0;
+  background-color: var(--secondary-color);
 }
 
 .heading-section {
@@ -43,7 +45,7 @@ body {
   font-family: var(--heading-font);
   font-size: 90px;
   padding: 20px 0 5px 0;
-  color: rgba(171, 37, 69, 1);
+  color: var(--primary-color);
 }
 
 .introduction-buttons {
@@ -57,18 +59,18 @@ body {
   margin: 30px;
   padding: 10px 30px 10px 30px;
   border-radius: 14px;
-  border: 1px solid rgba(171, 37, 69, 1);
+  border: 1px solid var(--primary-color);
   font-weight: 600;
 }
 
 .projects-button {
-  background-color: rgba(171, 37, 69, 1);
-  color: #f0f0f0;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .contact-button {
-  background-color: #f0f0f0;
-  color: rgba(171, 37, 69, 1);
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .project-site-note {
@@ -76,6 +78,30 @@ body {
   text-align: center;
 }
 
+img {
+  display: block;
+  margin: 0 auto;
+}
+
 .project-heading {
   font-family: var(--heading-font);
+  color: var(--primary-color);
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.row {
+  margin: 80px;
+}
+
+p.project-description {
+  margin: 20px 20px 40px 0;
+  line-height: 2em;
+}
+
+.view-details-button {
+  padding: 10px 30px 10px 30px;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  font-weight: 400;
 }
