@@ -42,10 +42,18 @@ body {
 }
 
 .introdution-name {
-  font-family: var(--heading-font);
   font-size: 90px;
+}
+
+.introdution-name,
+.introdution-name-about {
+  font-family: var(--heading-font);
   padding: 20px 0 5px 0;
   color: var(--primary-color);
+}
+
+.introdution-name-about {
+  font-size: 50px;
 }
 
 .introduction-buttons {
