@@ -138,7 +138,7 @@ img {
 
 .work-inquiry {
   background-color: var(--secondary-color);
-  padding: 30px 20px 20px 40px;
+  padding: 30px 20px 30px 30px;
   margin: 0 150px;
   border-radius: 4px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
@@ -173,6 +173,14 @@ a:link {
   font-size: 1.1rem;
 }
 
+h1.contact-header {
+  line-height: 2;
+  font-size: 55px;
+  color: var(--primary-color);
+  font-family: var(--heading-font-family);
+  padding: 95px 0 60px 110px;
+}
+
 .project-row {
   border-top: 1px solid rgba(171, 37, 69, 0.3);
 }
@@ -181,17 +189,42 @@ a:link {
   border-bottom: 1px solid rgba(171, 37, 69, 0.3);
 }
 
-@media (max-width: 900px) {
-  body {
-    display: block;
-  }
+.index-footer {
+  grid-template-columns: repeat(1, 1fr);
+}
 
+@media (max-width: 900px) {
   .project-content,
   .ai {
     margin: 0px;
   }
   .work-inquiry {
-    display: block;
     margin: 10px;
+  }
+
+  .project-content p {
+    margin: 0 0 20px 0;
+  }
+
+  .index-footer {
+    padding-top: 0px;
+  }
+
+  .container-fluid {
+    padding: 40px;
+  }
+  .project-content h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 800px) {
+  .index-footer {
+    grid-template-columns: repeat(1fr);
+  }
+
+  .col .contact-button-footer {
+    margin-top: 30px;
+    width: 90%;
   }
 }
