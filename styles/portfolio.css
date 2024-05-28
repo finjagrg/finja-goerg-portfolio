@@ -19,9 +19,31 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
 }
-.navbar-collapse {
-  display: flex;
-  justify-content: end;
+
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 0px 10px;
+}
+nav a {
+  color: black;
+}
+
+nav a:hover,
+nav .active {
+  color: var(--primary-color);
+  text-decoration: none;
+}
+
+nav ul {
+  padding: 15px 0px;
+  margin: 0px 0px 0px 90px;
+}
+
+nav span {
+  margin: auto 0px;
+  font-family: var(--heading-font-family);
+  font-size: 20px;
 }
 
 .nav-item {
@@ -216,7 +238,7 @@ h1.contact-header {
   }
 
   .work-inquiry {
-    margin: 10px;
+    margin: 10px 0px;
   }
 
   .project-content p {
@@ -242,8 +264,8 @@ h1.contact-header {
   }
 
   .col .contact-button-footer {
-    margin: 30px 0px 0px 0px;
-    width: 90%;
+    margin: 30px 0auto 0px;
+    max-width: 250px;
   }
 
   .about-header {

@@ -29,30 +29,18 @@
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand navbar-name" href="/about.html">Finja Görg</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="navbar-collapse collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active navbar-home" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-            <a class="nav-item nav-link" href="/about.html">About</a>
-            <a class="nav-item nav-link" href="/work.html">Work</a>
-            <a class="nav-item nav-link" href="/contact.html">Contact</a>
-          </div>
-        </div>
-      </nav>
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <span class=>Finja Görg</span>
+          <ul class="navbar-links justify-content-baseline">
+            <li class="navbar-link"><a href="/index.html" class="active">Home</a></li>
+            <li class="navbar-link"><a href="/about.html">About</a></li>
+            <li class="navbar-link"><a href="/work.html">Work</a></li>
+            <li class="navbar-link"><a href="/contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
       <div class="heading-section">
         <p>Hi I am</p>
         <h1>Finja Görg</h1>
@@ -129,7 +117,7 @@
     </main>
     <footer>
       <div class="container index-footer">
-        <div class="row work-inquiry d-flex align-items-center">
+        <div class="row work-inquiry d-flex text-center">
           <div class="col align-baseline col-12 col-lg-6">
             <h3>Work inquiry</h3>
             <div class="d-block">
@@ -139,7 +127,7 @@
           <div class="col col-12 col-lg-6">
             <a
               href
-              class="btn contact-button-footer d-flex justify-content-center"
+              class="btn contact-button-footer mt-4 d-flex text-center justify-content-center"
               >Let's talk here</a
             >
           </div>
