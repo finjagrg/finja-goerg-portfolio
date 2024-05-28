@@ -25,7 +25,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
-    <title>Finja Görg | About Page</title>
+    <title>Finja Görg | Homepage</title>
   </head>
   <body>
     <header>
@@ -42,9 +42,9 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="navbar-collapse collapse collapse" id="navbarNavAltMarkup">
+        <div class="navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active navbar-home" href="/index.html"
+            <a class="nav-item nav-link active navbar-home" href="#"
               >Home <span class="sr-only">(current)</span></a
             >
             <a class="nav-item nav-link" href="/about.html">About</a>
@@ -54,59 +54,66 @@
         </div>
       </nav>
     </header>
-    <div class="about-header container-fluid">
-      <div class="row">
-        <div class="col-12 col-sm-6">
-          <h1>Hey, it's Finja Görg</h1>
-          <img
-            src="/images/me.png"
-            alt=""
-            class="d-block d-sm-none mb-5 img-fluid"
-          />
-          <h2 class="display-6">Frontend Developer, based in Germany.</h2>
-          <p class="mt-3">lalala just an example</p>
-          <button class="view-details-button m-1 mt-sm-5">
-            View all projects
-          </button>
-        </div>
-        <div class="col">
-          <img
-            src="/images/me.png"
-            alt=""
-            width="550"
-            class="d-none d-sm-block"
-          />
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="container index-footer">
-        <div class="row work-inquiry d-flex align-items-center">
-          <div class="col align-baseline col-12 col-lg-6">
-            <h3>Work inquiry</h3>
-            <div class="d-block">
-              Let's work together and i'll help you by all my best
+    <main>
+      <div class="container-fluid">
+        <div class="row mb-5 pt-5 project-row">
+          <div class="col d-none d-lg-block">
+            <img src="/images/weather-app.png" alt="" class="img-fluid" />
+          </div>
+          <div class="col">
+            <div class="project-content">
+              <h3>Weather App</h3>
+              <p>
+                Project Oasis: Transforming urban spaces into lush green havens.
+                Our initiative aims to revitalize neglected areas by
+                establishing vibrant community gardens. Through collaboration
+                and eco-conscious practices, we envision fostering a sense of
+                community, promoting sustainability, and enhancing overall
+                well-being.
+              </p>
+              <a href class="btn view-details-button"> View detail project </a>
             </div>
           </div>
-          <div class="col col-12 col-lg-6">
-            <a
-              href
-              class="btn contact-button-footer d-flex justify-content-center"
-              >Let's talk here</a
-            >
+        </div>
+        <div class="row mb-5 pt-5 project-row">
+          <div class="col">
+            <div class="project-content ai">
+              <h3>AI Motivation-Quote-Generator</h3>
+              <p>
+                Project Oasis: Transforming urban spaces into lush green havens.
+                Our initiative aims to revitalize neglected areas by
+                establishing vibrant community gardens. Through collaboration
+                and eco-conscious practices, we envision fostering a sense of
+                community, promoting sustainability, and enhancing overall
+                well-being.
+              </p>
+              <a href class="btn view-details-button"> View detail project</a>
+            </div>
+          </div>
+          <div class="col d-none d-lg-block mr-5 ml-5">
+            <img src="/images/motivation-quotes.png" alt="" class="img-fluid" />
           </div>
         </div>
-        <div class="contact-details-footer">
-          <div class="email-footer">
-            <a href="mailto:finjagoergg@gmail.com">finjagoergg@gmail.com</a>
+        <div class="row mb-5 pt-5 pb-5 project-row my-portfolio-row mr-5">
+          <div class="col d-none d-lg-block">
+            <img src="images/portfolio.png" alt="" class="img-fluid" />
           </div>
-          <div class="contact-pages">
-            <a href="">F</a>
-            <a href="">I</a>
-            <a href="">L</a>
+          <div class="col">
+            <div class="project-content">
+              <h3>My Portfolio</h3>
+              <p>
+                Project Oasis: Transforming urban spaces into lush green havens.
+                Our initiative aims to revitalize neglected areas by
+                establishing vibrant community gardens. Through collaboration
+                and eco-conscious practices, we envision fostering a sense of
+                community, promoting sustainability, and enhancing overall
+                well-being.
+              </p>
+              <a href class="btn view-details-button"> View detail project </a>
+            </div>
           </div>
         </div>
       </div>
-    </footer>
+    </main>
   </body>
 </html>
