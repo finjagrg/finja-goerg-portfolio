@@ -26,7 +26,7 @@ nav li {
   padding: 0px 20px;
 }
 
-div.container {
+div.header-navbar {
   padding: 0px;
   margin: 0px;
 }
@@ -34,6 +34,9 @@ nav a {
   color: black;
 }
 
+i {
+  width: 100%;
+}
 nav a:hover,
 .active {
   color: var(--primary-color);
@@ -190,6 +193,20 @@ img {
 a:link {
   font-weight: 400;
   color: black;
+}
+
+.email-link:hover {
+  text-decoration: none;
+  color: rgba(171, 37, 69, 0.6);
+}
+
+.social-links a {
+  padding: 16px;
+  margin: 9px;
+  line-height: 0;
+  border-radius: 80px;
+  color: #fff;
+  background: rgba(171, 37, 69, 0.6);
 }
 
 .about-header h1 {
